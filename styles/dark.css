@@ -4,6 +4,15 @@
   переключая тему
 */
 
+:root.theme-dark {
+  --main-font: 'IBM Plex mono';
+  --page-color: #000028;
+  --main-title-text-color: #DB00FF;
+  --accent-color: #FF0070;
+  --text-color: #F1B2CE;
+  --bg-image: url(../images/cover-image-dark.png);
+}
+
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
