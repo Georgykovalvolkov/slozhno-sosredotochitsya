@@ -26,6 +26,14 @@
   --text-color: #f1b2ce;
   --outline-color: rgba(255, 0, 112, 0.4);
   --bg-image: url(../images/cover-image-dark.png);
+
+  .header__decorative-title::before {
+    content: "rec";
+  }
+
+  .header__decorative-title::after {
+    content: "";
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,5 +50,13 @@
     --text-color: #f1b2ce;
     --outline-color: rgba(255, 0, 112, 0.4);
     --bg-image: url(../images/cover-image-dark.png);
+  }
+
+  .header__decorative-title::before {
+    content: "rec";
+  }
+
+  .header__decorative-title::after {
+    content: "";
   }
 }

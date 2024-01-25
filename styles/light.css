@@ -1,6 +1,6 @@
 :root.theme-light {
   --main-font: 'IBM Plex mono';
-  --page-color: #353430;
+  --page-color: #FFF1F7;
   --header-menu-color: #353430;
   --header-title: #FFC2E6;
   --header-shadow: #FF8DCB;
@@ -15,7 +15,7 @@
 
 .page.theme_light {
   --main-font: 'IBM Plex mono';
-  --page-color: #353430;
+  --page-color: #FFF1F7;
   --header-menu-color: #353430;
   --header-title: #FFC2E6;
   --header-shadow: #FF8DCB;
@@ -39,7 +39,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --main-font: 'IBM Plex mono';
-    --page-color: #353430;
+    --page-color: #FFF1F7;
     --header-menu-color: #353430;
     --header-title: #FFC2E6;
     --header-shadow: #FF8DCB;
