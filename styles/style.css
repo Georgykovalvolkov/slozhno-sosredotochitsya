@@ -41,6 +41,10 @@
   border-left: 1px solid var(--header-menu-color);
 }
 
+.header__decorative-title {
+  max-inline-size: 984px;
+}
+
 .header__decorative-title::before {
   content: "rec";
   position: absolute;
@@ -405,6 +409,10 @@ a:focus-visible {
     margin-block-start: 58px;
   }
 
+  .header__decorative-title {
+    max-inline-size: 1px;
+  }
+
   .content__title {
     grid-column: 1/2;
     grid-row: 1/5;
@@ -426,7 +434,7 @@ a:focus-visible {
   }
 
   .content__text-block-card {
-    min-inline-size: 314px;
+    min-inline-size: 300px;
   }
 
   .content__list-title {
